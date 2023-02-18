@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Calc me</title>
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+    <div id="content-wrapper" class="min-h-screen flex justify-center items-center flex-col">
+        <div id="display" class="rounded-t-2xl flex items-end justify-end p-2 shadow-md overflow-x-scroll">
+            <div id="display-text" class="text-6xl pb-4 overflow-x-scroll"></div>
+        </div>
+        <table id="keys" class="rounded-b-2xl bg-black">
+            <tr class="gap-5 flex justify-around m-2 ">
+                <td id="AC">AC</td>
+                <td id="DEL">DEL</td>
+                <td id="%">%</td>
+                <td id="/" class="bg-orange-400 hover:bg-orange-300">/</td>
+            </tr>
+            <tr class="gap-5 flex justify-around m-2 ">
+                <td id="7">7</td>
+                <td id="8">8</td>
+                <td id="9">9</td>
+                <td id="*" class="bg-orange-400 hover:bg-orange-300">*</tr>
+            <tr class="gap-5 flex justify-around m-2">
+                <td id="4">4</td>
+                <td id="5">5</td>
+                <td id="6">6</td>
+                <td id="-" class="bg-orange-400 hover:bg-orange-300">-</td>
+            </tr>
+            <tr class="gap-5 flex justify-around m-2">
+                <td id="1">1</td>
+                <td id="2">2</td>
+                <td id="3">3</td>
+                <td id="+" class="bg-orange-400 hover:bg-orange-300">+</td>
+            </tr>
+            <tr class="gap-5 flex justify-around m-2">
+                <td class="text-start pl-6 roundedNull w-36 flex justify-start" id="0">0</td>
+                <td id=".">.</td>
+                <td id="=" class="bg-orange-400 hover:bg-orange-300">=</td>
+            </tr>
+        </table>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

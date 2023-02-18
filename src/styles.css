@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#content-wrapper {
+    background: rgba(0, 0, 0, 0.678);
+    width: 100%
+}
+
+#display {
+    height: 8.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.2rem;
+    background-color: black;
+    text-align: right;
+    vertical-align: middle;
+    font-size: 2.5rem;
+    overflow-x: scroll;
+    width: 20rem;
+    color: white;
+    font-weight: 100;
+}
+
+#display-text {
+    background-color: black;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#keys {
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+table {
+    background-color: skyblue;
+    width: 20rem;
+}
+
+table td {
+    width: 3.7rem;
+    height: 3rem;
+    padding: 10px;
+    border-radius: 50%;
+    background: rgb(78, 78, 78);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+}
+
+table td:hover {
+    background: rgb(114, 114, 114);
+}
+
+.roundedNull {
+    border-radius: 45px;
+}
