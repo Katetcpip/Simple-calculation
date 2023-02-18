@@ -6,6 +6,10 @@
     width: 100%
 }
 
+::-webkit-scrollbar-track {
+    background: black;
+}
+
 #display {
     height: 8.5rem;
     padding-top: 0.5rem;
