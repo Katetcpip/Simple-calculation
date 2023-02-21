@@ -20,6 +20,20 @@
     background: #000;
 }
 
+#display::-webkit-scrollbar-track {
+    background: black;
+}
+
+#display::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    background-color: #aaaa;
+}
+
+#display::-webkit-scrollbar-thumb {
+    background: #000;
+}
+
 #display {
     padding-top: 0.5rem;
     padding-bottom: 0.2rem;
